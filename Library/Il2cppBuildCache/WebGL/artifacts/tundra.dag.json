@@ -1,0 +1,169 @@
+{
+  "Nodes": [
+    {
+      "Annotation": "all_tundra_nodes",
+      "Action": "",
+      "Inputs": [],
+      "Outputs": [],
+      "TargetDirectories": [],
+      "PassIndex": 0,
+      "ToBuildDependencies": [
+        1,
+        2
+      ],
+      "ToUseDependencies": [],
+      "OverwriteOutputs": true,
+      "FrontendResponseFiles": [],
+      "AllowUnexpectedOutput": true,
+      "AllowedOutputSubstrings": [],
+      "DebugActionIndex": 0
+    },
+    {
+      "Annotation": "WriteResponseFile artifacts/rsp/11782051751237269014.rsp",
+      "WriteTextFilePayload": "--convert-to-cpp --dotnetprofile=\"unityaot\" --compile-cpp --libil2cpp-static --platform=\"WebGL\" --architecture=\"EmscriptenJavaScript\" --configuration=\"Release\" --outputpath=\"E:\\code\\UnityStudy\\SnowBoarder\\Library/Il2cppBuildCache/WebGL\\Native\\build.bc\" --cachedirectory=\"E:\\code\\UnityStudy\\SnowBoarder\\Assets\\..\\Library/il2cpp_cache\" --compiler-flags=\"-Oz -DIL2CPP_EXCEPTION_DISABLED=1 \" --baselib-directory=\"C:/Program Files/Unity/Hub/Editor/2020.3.24f1c2/Editor/Data/PlaybackEngines/WebGLSupport\\Variations\\nondevelopment\" --avoid-dynamic-library-copy --emit-method-map --additional-libraries=\"C:/Program Files/Unity/Hub/Editor/2020.3.24f1c2/Editor/Data/PlaybackEngines/WebGLSupport\\BuildTools\\lib\\modules\\WebGLSupport_AccessibilityModule_Dynamic.bc\" --additional-libraries=\"C:/Program Files/Unity/Hub/Editor/2020.3.24f1c2/Editor/Data/PlaybackEngines/WebGLSupport\\BuildTools\\lib\\modules\\WebGLSupport_AIModule_Dynamic.bc\" --additional-libraries=\"C:/Program Files/Unity/Hub/Editor/2020.3.24f1c2/Editor/Data/PlaybackEngines/WebGLSupport\\BuildTools\\lib\\modules\\WebGLSupport_AndroidJNIModule_Dynamic.bc\" --additional-libraries=\"C:/Program Files/Unity/Hub/Editor/2020.3.24f1c2/Editor/Data/PlaybackEngines/WebGLSupport\\BuildTools\\lib\\modules\\WebGLSupport_AnimationModule_Dynamic.bc\" --additional-libraries=\"C:/Program Files/Unity/Hub/Editor/2020.3.24f1c2/Editor/Data/PlaybackEngines/WebGLSupport\\BuildTools\\lib\\modules\\WebGLSupport_AssetBundleModule_Dynamic.bc\" --additional-libraries=\"C:/Program Files/Unity/Hub/Editor/2020.3.24f1c2/Editor/Data/PlaybackEngines/WebGLSupport\\BuildTools\\lib\\modules\\WebGLSupport_AudioModule_Dynamic.bc\" --additional-libraries=\"C:/Program Files/Unity/Hub/Editor/2020.3.24f1c2/Editor/Data/PlaybackEngines/WebGLSupport\\BuildTools\\lib\\modules\\WebGLSupport_AutoStreamingModule_Dynamic.bc\" --additional-libraries=\"C:/Program Files/Unity/Hub/Editor/2020.3.24f1c2/Editor/Data/PlaybackEngines/WebGLSupport\\BuildTools\\lib\\modules\\WebGLSupport_ClothModule_Dynamic.bc\" --additional-libraries=\"C:/Program Files/Unity/Hub/Editor/2020.3.24f1c2/Editor/Data/PlaybackEngines/WebGLSupport\\BuildTools\\lib\\modules\\WebGLSupport_CloudFoundationModule_Dynamic.bc\" --additional-libraries=\"C:/Program Files/Unity/Hub/Editor/2020.3.24f1c2/Editor/Data/PlaybackEngines/WebGLSupport\\BuildTools\\lib\\modules\\WebGLSupport_CoreModule_Dynamic.bc\" --additional-libraries=\"C:/Program Files/Unity/Hub/Editor/2020.3.24f1c2/Editor/Data/PlaybackEngines/WebGLSupport\\BuildTools\\lib\\modules\\WebGLSupport_CrashReportingModule_Dynamic.bc\" --additional-libraries=\"C:/Program Files/Unity/Hub/Editor/2020.3.24f1c2/Editor/Data/PlaybackEngines/WebGLSupport\\BuildTools\\lib\\modules\\WebGLSupport_DirectorModule_Dynamic.bc\" --additional-libraries=\"C:/Program Files/Unity/Hub/Editor/2020.3.24f1c2/Editor/Data/PlaybackEngines/WebGLSupport\\BuildTools\\lib\\modules\\WebGLSupport_DSPGraphModule_Dynamic.bc\" --additional-libraries=\"C:/Program Files/Unity/Hub/Editor/2020.3.24f1c2/Editor/Data/PlaybackEngines/WebGLSupport\\BuildTools\\lib\\modules\\WebGLSupport_GameCenterModule_Dynamic.bc\" --additional-libraries=\"C:/Program Files/Unity/Hub/Editor/2020.3.24f1c2/Editor/Data/PlaybackEngines/WebGLSupport\\BuildTools\\lib\\modules\\WebGLSupport_GIModule_Dynamic.bc\" --additional-libraries=\"C:/Program Files/Unity/Hub/Editor/2020.3.24f1c2/Editor/Data/PlaybackEngines/WebGLSupport\\BuildTools\\lib\\modules\\WebGLSupport_GridModule_Dynamic.bc\" --additional-libraries=\"C:/Program Files/Unity/Hub/Editor/2020.3.24f1c2/Editor/Data/PlaybackEngines/WebGLSupport\\BuildTools\\lib\\modules\\WebGLSupport_HotReloadModule_Dynamic.bc\" --additional-libraries=\"C:/Program Files/Unity/Hub/Editor/2020.3.24f1c2/Editor/Data/PlaybackEngines/WebGLSupport\\BuildTools\\lib\\modules\\WebGLSupport_ImageConversionModule_Dynamic.bc\" --additional-libraries=\"C:/Program Files/Unity/Hub/Editor/2020.3.24f1c2/Editor/Data/PlaybackEngines/WebGLSupport\\BuildTools\\lib\\modules\\WebGLSupport_IMGUIModule_Dynamic.bc\" --additional-libraries=\"C:/Program Files/Unity/Hub/Editor/2020.3.24f1c2/Editor/Data/PlaybackEngines/WebGLSupport\\BuildTools\\lib\\modules\\WebGLSupport_InputLegacyModule_Dynamic.bc\" --additional-libraries=\"C:/Program Files/Unity/Hub/Editor/2020.3.24f1c2/Editor/Data/PlaybackEngines/WebGLSupport\\BuildTools\\lib\\modules\\WebGLSupport_InputModule_Dynamic.bc\" --additional-libraries=\"C:/Program Files/Unity/Hub/Editor/2020.3.24f1c2/Editor/Data/PlaybackEngines/WebGLSupport\\BuildTools\\lib\\modules\\WebGLSupport_JSONSerializeModule_Dynamic.bc\" --additional-libraries=\"C:/Program Files/Unity/Hub/Editor/2020.3.24f1c2/Editor/Data/PlaybackEngines/WebGLSupport\\BuildTools\\lib\\modules\\WebGLSupport_LocalizationModule_Dynamic.bc\" --additional-libraries=\"C:/Program Files/Unity/Hub/Editor/2020.3.24f1c2/Editor/Data/PlaybackEngines/WebGLSupport\\BuildTools\\lib\\modules\\WebGLSupport_ParticleSystemModule_Dynamic.bc\" --additional-libraries=\"C:/Program Files/Unity/Hub/Editor/2020.3.24f1c2/Editor/Data/PlaybackEngines/WebGLSupport\\BuildTools\\lib\\modules\\WebGLSupport_PerformanceReportingModule_Dynamic.bc\" --additional-libraries=\"C:/Program Files/Unity/Hub/Editor/2020.3.24f1c2/Editor/Data/PlaybackEngines/WebGLSupport\\BuildTools\\lib\\modules\\WebGLSupport_Physics2DModule_Dynamic.bc\" --additional-libraries=\"C:/Program Files/Unity/Hub/Editor/2020.3.24f1c2/Editor/Data/PlaybackEngines/WebGLSupport\\BuildTools\\lib\\modules\\WebGLSupport_PhysicsModule_Dynamic.bc\" --additional-libraries=\"C:/Program Files/Unity/Hub/Editor/2020.3.24f1c2/Editor/Data/PlaybackEngines/WebGLSupport\\BuildTools\\lib\\modules\\WebGLSupport_ProfilerModule_Dynamic.bc\" --additional-libraries=\"C:/Program Files/Unity/Hub/Editor/2020.3.24f1c2/Editor/Data/PlaybackEngines/WebGLSupport\\BuildTools\\lib\\modules\\WebGLSupport_RuntimeInitializeOnLoadManagerInitializerModule_Dynamic.bc\" --additional-libraries=\"C:/Program Files/Unity/Hub/Editor/2020.3.24f1c2/Editor/Data/PlaybackEngines/WebGLSupport\\BuildTools\\lib\\modules\\WebGLSupport_ScreenCaptureModule_Dynamic.bc\" --additional-libraries=\"C:/Program Files/Unity/Hub/Editor/2020.3.24f1c2/Editor/Data/PlaybackEngines/WebGLSupport\\BuildTools\\lib\\modules\\WebGLSupport_SharedInternalsModule_Dynamic.bc\" --additional-libraries=\"C:/Program Files/Unity/Hub/Editor/2020.3.24f1c2/Editor/Data/PlaybackEngines/WebGLSupport\\BuildTools\\lib\\modules\\WebGLSupport_SpriteMaskModule_Dynamic.bc\" --additional-libraries=\"C:/Program Files/Unity/Hub/Editor/2020.3.24f1c2/Editor/Data/PlaybackEngines/WebGLSupport\\BuildTools\\lib\\modules\\WebGLSupport_SpriteShapeModule_Dynamic.bc\" --additional-libraries=\"C:/Program Files/Unity/Hub/Editor/2020.3.24f1c2/Editor/Data/PlaybackEngines/WebGLSupport\\BuildTools\\lib\\modules\\WebGLSupport_StreamingModule_Dynamic.bc\" --additional-libraries=\"C:/Program Files/Unity/Hub/Editor/2020.3.24f1c2/Editor/Data/PlaybackEngines/WebGLSupport\\BuildTools\\lib\\modules\\WebGLSupport_SubstanceModule_Dynamic.bc\" --additional-libraries=\"C:/Program Files/Unity/Hub/Editor/2020.3.24f1c2/Editor/Data/PlaybackEngines/WebGLSupport\\BuildTools\\lib\\modules\\WebGLSupport_SubsystemsModule_Dynamic.bc\" --additional-libraries=\"C:/Program Files/Unity/Hub/Editor/2020.3.24f1c2/Editor/Data/PlaybackEngines/WebGLSupport\\BuildTools\\lib\\modules\\WebGLSupport_TerrainModule_Dynamic.bc\" --additional-libraries=\"C:/Program Files/Unity/Hub/Editor/2020.3.24f1c2/Editor/Data/PlaybackEngines/WebGLSupport\\BuildTools\\lib\\modules\\WebGLSupport_TerrainPhysicsModule_Dynamic.bc\" --additional-libraries=\"C:/Program Files/Unity/Hub/Editor/2020.3.24f1c2/Editor/Data/PlaybackEngines/WebGLSupport\\BuildTools\\lib\\modules\\WebGLSupport_TextCoreModule_Dynamic.bc\" --additional-libraries=\"C:/Program Files/Unity/Hub/Editor/2020.3.24f1c2/Editor/Data/PlaybackEngines/WebGLSupport\\BuildTools\\lib\\modules\\WebGLSupport_TextRenderingModule_Dynamic.bc\" --additional-libraries=\"C:/Program Files/Unity/Hub/Editor/2020.3.24f1c2/Editor/Data/PlaybackEngines/WebGLSupport\\BuildTools\\lib\\modules\\WebGLSupport_TilemapModule_Dynamic.bc\" --additional-libraries=\"C:/Program Files/Unity/Hub/Editor/2020.3.24f1c2/Editor/Data/PlaybackEngines/WebGLSupport\\BuildTools\\lib\\modules\\WebGLSupport_TLSModule_Dynamic.bc\" --additional-libraries=\"C:/Program Files/Unity/Hub/Editor/2020.3.24f1c2/Editor/Data/PlaybackEngines/WebGLSupport\\BuildTools\\lib\\modules\\WebGLSupport_UIElementsModule_Dynamic.bc\" --additional-libraries=\"C:/Program Files/Unity/Hub/Editor/2020.3.24f1c2/Editor/Data/PlaybackEngines/WebGLSupport\\BuildTools\\lib\\modules\\WebGLSupport_UIElementsNativeModule_Dynamic.bc\" --additional-libraries=\"C:/Program Files/Unity/Hub/Editor/2020.3.24f1c2/Editor/Data/PlaybackEngines/WebGLSupport\\BuildTools\\lib\\modules\\WebGLSupport_UIModule_Dynamic.bc\" --additional-libraries=\"C:/Program Files/Unity/Hub/Editor/2020.3.24f1c2/Editor/Data/PlaybackEngines/WebGLSupport\\BuildTools\\lib\\modules\\WebGLSupport_UmbraModule_Dynamic.bc\" --additional-libraries=\"C:/Program Files/Unity/Hub/Editor/2020.3.24f1c2/Editor/Data/PlaybackEngines/WebGLSupport\\BuildTools\\lib\\modules\\WebGLSupport_UNETModule_Dynamic.bc\" --additional-libraries=\"C:/Program Files/Unity/Hub/Editor/2020.3.24f1c2/Editor/Data/PlaybackEngines/WebGLSupport\\BuildTools\\lib\\modules\\WebGLSupport_UnityAnalyticsModule_Dynamic.bc\" --additional-libraries=\"C:/Program Files/Unity/Hub/Editor/2020.3.24f1c2/Editor/Data/PlaybackEngines/WebGLSupport\\BuildTools\\lib\\modules\\WebGLSupport_UnityConnectModule_Dynamic.bc\" --additional-libraries=\"C:/Program Files/Unity/Hub/Editor/2020.3.24f1c2/Editor/Data/PlaybackEngines/WebGLSupport\\BuildTools\\lib\\modules\\WebGLSupport_UnityCurlModule_Dynamic.bc\" --additional-libraries=\"C:/Program Files/Unity/Hub/Editor/2020.3.24f1c2/Editor/Data/PlaybackEngines/WebGLSupport\\BuildTools\\lib\\modules\\WebGLSupport_UnityTestProtocolModule_Dynamic.bc\" --additional-libraries=\"C:/Program Files/Unity/Hub/Editor/2020.3.24f1c2/Editor/Data/PlaybackEngines/WebGLSupport\\BuildTools\\lib\\modules\\WebGLSupport_UnityWebRequestAssetBundleModule_Dynamic.bc\" --additional-libraries=\"C:/Program Files/Unity/Hub/Editor/2020.3.24f1c2/Editor/Data/PlaybackEngines/WebGLSupport\\BuildTools\\lib\\modules\\WebGLSupport_UnityWebRequestAudioModule_Dynamic.bc\" --additional-libraries=\"C:/Program Files/Unity/Hub/Editor/2020.3.24f1c2/Editor/Data/PlaybackEngines/WebGLSupport\\BuildTools\\lib\\modules\\WebGLSupport_UnityWebRequestModule_Dynamic.bc\" --additional-libraries=\"C:/Program Files/Unity/Hub/Editor/2020.3.24f1c2/Editor/Data/PlaybackEngines/WebGLSupport\\BuildTools\\lib\\modules\\WebGLSupport_UnityWebRequestTextureModule_Dynamic.bc\" --additional-libraries=\"C:/Program Files/Unity/Hub/Editor/2020.3.24f1c2/Editor/Data/PlaybackEngines/WebGLSupport\\BuildTools\\lib\\modules\\WebGLSupport_UnityWebRequestWWWModule_Dynamic.bc\" --additional-libraries=\"C:/Program Files/Unity/Hub/Editor/2020.3.24f1c2/Editor/Data/PlaybackEngines/WebGLSupport\\BuildTools\\lib\\modules\\WebGLSupport_VehiclesModule_Dynamic.bc\" --additional-libraries=\"C:/Program Files/Unity/Hub/Editor/2020.3.24f1c2/Editor/Data/PlaybackEngines/WebGLSupport\\BuildTools\\lib\\modules\\WebGLSupport_VFXModule_Dynamic.bc\" --additional-libraries=\"C:/Program Files/Unity/Hub/Editor/2020.3.24f1c2/Editor/Data/PlaybackEngines/WebGLSupport\\BuildTools\\lib\\modules\\WebGLSupport_VideoModule_Dynamic.bc\" --additional-libraries=\"C:/Program Files/Unity/Hub/Editor/2020.3.24f1c2/Editor/Data/PlaybackEngines/WebGLSupport\\BuildTools\\lib\\modules\\WebGLSupport_VRModule_Dynamic.bc\" --additional-libraries=\"C:/Program Files/Unity/Hub/Editor/2020.3.24f1c2/Editor/Data/PlaybackEngines/WebGLSupport\\BuildTools\\lib\\modules\\WebGLSupport_WebGLModule_Dynamic.bc\" --additional-libraries=\"C:/Program Files/Unity/Hub/Editor/2020.3.24f1c2/Editor/Data/PlaybackEngines/WebGLSupport\\BuildTools\\lib\\modules\\WebGLSupport_WindModule_Dynamic.bc\" --additional-libraries=\"C:/Program Files/Unity/Hub/Editor/2020.3.24f1c2/Editor/Data/PlaybackEngines/WebGLSupport\\BuildTools\\lib\\modules\\WebGLSupport_XRModule_Dynamic.bc\" --additional-cpp=E:/code/UnityStudy/SnowBoarder/Library/Il2cppBuildCache/WebGL/additionalCppFiles/UnityClassRegistration.cpp --additional-cpp=E:/code/UnityStudy/SnowBoarder/Library/Il2cppBuildCache/WebGL/additionalCppFiles/UnityICallRegistration.cpp --profiler-report --map-file-parser=\"C:/Program Files/Unity/Hub/Editor/2020.3.24f1c2/Editor/Data/Tools/MapFileParser/MapFileParser.exe\" --directory=E:/code/UnityStudy/SnowBoarder/Temp/StagingArea/Data/Managed --generatedcppdir=E:/code/UnityStudy/SnowBoarder/Library/Il2cppBuildCache/WebGL/il2cppOutput --stats-output-dir=E:/code/UnityStudy/SnowBoarder/Library/Il2cppBuildCache/WebGL/il2cppStats",
+      "Inputs": [],
+      "Outputs": [
+        "artifacts/rsp/11782051751237269014.rsp"
+      ],
+      "PassIndex": 0,
+      "ToBuildDependencies": [],
+      "ToUseDependencies": [],
+      "OverwriteOutputs": true,
+      "AllowUnwrittenOutputFiles": true,
+      "DebugActionIndex": 1
+    },
+    {
+      "Annotation": "Il2Cpp E:/code/UnityStudy/SnowBoarder/Library/Il2cppBuildCache/WebGL/Native/build.bc",
+      "Action": "\"C:\\Program Files\\Unity\\Hub\\Editor\\2020.3.24f1c2\\Editor\\Data\\il2cpp/build/deploy/netcoreapp3.1/il2cpp.exe\" @\"artifacts\\rsp\\11782051751237269014.rsp\"",
+      "Inputs": [
+        "E:/code/UnityStudy/SnowBoarder/Temp/StagingArea/Data/Managed",
+        "E:/code/UnityStudy/SnowBoarder/Temp/StagingArea/Data/Managed/Assembly-CSharp.dll",
+        "E:/code/UnityStudy/SnowBoarder/Temp/StagingArea/Data/Managed/Cinemachine.dll",
+        "E:/code/UnityStudy/SnowBoarder/Temp/StagingArea/Data/Managed/Mono.Security.dll",
+        "E:/code/UnityStudy/SnowBoarder/Temp/StagingArea/Data/Managed/mscorlib.dll",
+        "E:/code/UnityStudy/SnowBoarder/Temp/StagingArea/Data/Managed/System.Configuration.dll",
+        "E:/code/UnityStudy/SnowBoarder/Temp/StagingArea/Data/Managed/System.Core.dll",
+        "E:/code/UnityStudy/SnowBoarder/Temp/StagingArea/Data/Managed/System.dll",
+        "E:/code/UnityStudy/SnowBoarder/Temp/StagingArea/Data/Managed/System.Xml.dll",
+        "E:/code/UnityStudy/SnowBoarder/Temp/StagingArea/Data/Managed/Unity.2D.PixelPerfect.dll",
+        "E:/code/UnityStudy/SnowBoarder/Temp/StagingArea/Data/Managed/Unity.2D.SpriteShape.Runtime.dll",
+        "E:/code/UnityStudy/SnowBoarder/Temp/StagingArea/Data/Managed/Unity.Mathematics.dll",
+        "E:/code/UnityStudy/SnowBoarder/Temp/StagingArea/Data/Managed/Unity.Timeline.dll",
+        "E:/code/UnityStudy/SnowBoarder/Temp/StagingArea/Data/Managed/UnityEngine.AnimationModule.dll",
+        "E:/code/UnityStudy/SnowBoarder/Temp/StagingArea/Data/Managed/UnityEngine.AudioModule.dll",
+        "E:/code/UnityStudy/SnowBoarder/Temp/StagingArea/Data/Managed/UnityEngine.CoreModule.dll",
+        "E:/code/UnityStudy/SnowBoarder/Temp/StagingArea/Data/Managed/UnityEngine.DirectorModule.dll",
+        "E:/code/UnityStudy/SnowBoarder/Temp/StagingArea/Data/Managed/UnityEngine.dll",
+        "E:/code/UnityStudy/SnowBoarder/Temp/StagingArea/Data/Managed/UnityEngine.GridModule.dll",
+        "E:/code/UnityStudy/SnowBoarder/Temp/StagingArea/Data/Managed/UnityEngine.IMGUIModule.dll",
+        "E:/code/UnityStudy/SnowBoarder/Temp/StagingArea/Data/Managed/UnityEngine.InputLegacyModule.dll",
+        "E:/code/UnityStudy/SnowBoarder/Temp/StagingArea/Data/Managed/UnityEngine.ParticleSystemModule.dll",
+        "E:/code/UnityStudy/SnowBoarder/Temp/StagingArea/Data/Managed/UnityEngine.Physics2DModule.dll",
+        "E:/code/UnityStudy/SnowBoarder/Temp/StagingArea/Data/Managed/UnityEngine.PhysicsModule.dll",
+        "E:/code/UnityStudy/SnowBoarder/Temp/StagingArea/Data/Managed/UnityEngine.SharedInternalsModule.dll",
+        "E:/code/UnityStudy/SnowBoarder/Temp/StagingArea/Data/Managed/UnityEngine.SpriteShapeModule.dll",
+        "E:/code/UnityStudy/SnowBoarder/Temp/StagingArea/Data/Managed/UnityEngine.TextRenderingModule.dll",
+        "E:/code/UnityStudy/SnowBoarder/Temp/StagingArea/Data/Managed/UnityEngine.TilemapModule.dll",
+        "E:/code/UnityStudy/SnowBoarder/Temp/StagingArea/Data/Managed/UnityEngine.UI.dll",
+        "E:/code/UnityStudy/SnowBoarder/Temp/StagingArea/Data/Managed/UnityEngine.UIModule.dll",
+        "E:/code/UnityStudy/SnowBoarder/Temp/StagingArea/Data/Managed/UnityEngine.UnityAnalyticsModule.dll",
+        "E:/code/UnityStudy/SnowBoarder/Temp/StagingArea/Data/Managed/UnityEngine.UnityWebRequestModule.dll",
+        "E:/code/UnityStudy/SnowBoarder/Library/Il2cppBuildCache/WebGL/additionalCppFiles/UnityClassRegistration.cpp",
+        "E:/code/UnityStudy/SnowBoarder/Library/Il2cppBuildCache/WebGL/additionalCppFiles/UnityICallRegistration.cpp",
+        "C:/Program Files/Unity/Hub/Editor/2020.3.24f1c2/Editor/Data/Tools/MapFileParser/MapFileParser.exe",
+        "\"C:/Program Files/Unity/Hub/Editor/2020.3.24f1c2/Editor/Data/il2cpp/build/deploy/netcoreapp3.1/il2cpp.exe\"",
+        "artifacts/rsp/11782051751237269014.rsp"
+      ],
+      "Outputs": [
+        "E:/code/UnityStudy/SnowBoarder/Library/Il2cppBuildCache/WebGL/Native/build.bc"
+      ],
+      "TargetDirectories": [],
+      "PassIndex": 0,
+      "ToBuildDependencies": [
+        1
+      ],
+      "ToUseDependencies": [],
+      "OverwriteOutputs": false,
+      "FrontendResponseFiles": [
+        "artifacts/rsp/11782051751237269014.rsp"
+      ],
+      "AllowUnexpectedOutput": true,
+      "AllowedOutputSubstrings": [],
+      "DebugActionIndex": 2
+    }
+  ],
+  "FileSignatures": [
+    {
+      "File": "-DIL2CPP_EXCEPTION_DISABLED=1"
+    },
+    {
+      "File": "-Oz"
+    },
+    {
+      "File": "."
+    },
+    {
+      "File": "../../../Temp/StagingArea/Data/Managed"
+    },
+    {
+      "File": "1"
+    },
+    {
+      "File": "artifacts/buildprogram/tundra_buildprogram.dag.json"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2020.3.24f1c2/Editor/Data/PlaybackEngines/WebGLSupport/Variations/nondevelopment"
+    },
+    {
+      "File": "IL2CPP_EXCEPTION_DISABLED=1"
+    },
+    {
+      "File": "il2cpp_settings.json"
+    },
+    {
+      "File": "unitylinker_settings.json"
+    },
+    {
+      "File": "z"
+    }
+  ],
+  "GlobSignatures": [
+    {
+      "Path": "../../../Temp/StagingArea/Data/Managed"
+    },
+    {
+      "Path": "C:/Program Files/Unity/Hub/Editor/2020.3.24f1c2/Editor/Data/PlaybackEngines/WebGLSupport/Variations/nondevelopment",
+      "Recurse": 1
+    }
+  ],
+  "ContentDigestExtensions": [
+    ".rsp",
+    ".dll",
+    ".exe",
+    ".txt",
+    ".c",
+    ".cpp",
+    ".h",
+    ".cs",
+    ".hpp"
+  ],
+  "StructuredLogFileName": "artifacts/tundra.log.json",
+  "StateFileName": "artifacts/TundraBuildState.state",
+  "StateFileNameTmp": "artifacts/TundraBuildState.state.tmp",
+  "ScanCacheFileName": "artifacts/tundra.scancache",
+  "ScanCacheFileNameTmp": "artifacts/tundra.scancache.tmp",
+  "DigestCacheFileName": "artifacts/tundra.digestcache",
+  "DigestCacheFileNameTmp": "artifacts/tundra.digestcache.tmp",
+  "DirectoriesCausingImplicitDependencies": [],
+        "NamedNodes": {
+          "all_tundra_nodes": 0
+        }
+,  "DefaultNodes": [
+    0
+  ],
+  "SharedResources": [],
+  "Scanners": [],
+  "Identifier": "artifacts/tundra.dag.json",
+  "BuildTitle": "Bee",
+  "RelativePathToRoot": ".."
+}
